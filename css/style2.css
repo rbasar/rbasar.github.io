@@ -1,0 +1,58 @@
+html {
+  background-color: black;
+}
+
+body {
+  background: none;
+  color: #c61b15;
+  font-family: 'VT323', monospace;
+}
+
+strong {
+  color: #c61b15;
+}
+
+.navbar {
+  color: #c61b15;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #c61b15;
+  border-color: #c61b15;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #c61b15;
+  border-color: b#c61b15;
+}
+
+.card {
+  border-color: black;
+}
+
+.card-title {
+  color: #c61b15;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url(/st.png);
+  background-repeat: repeat-x;
+}
+
+.jumbotron {
+  background-image: url(/st.png);
+  background-size: cover;
+  color: #c61b15;
+}
