@@ -16,13 +16,19 @@
 	background-color: black;
 }
 
-.navbar{
+.container{
 	color: #c61b15;
 }
 
+.nav-link, .navbar-brand{
+  font-size: 150%;
+  color: #c61b15;
+}
+
+
 a {
 	color:#c61b15;
-
+	text-align: center;
 }
 
 h5 {
@@ -38,6 +44,7 @@ h4 {
 	  font-family: 'VT323', monospace;
 	  font-size: 150%;
 }
+
 h5 {
 	font-size: 180%;
 }
@@ -62,18 +69,12 @@ i {
 	text-align:center;
 }
 
-a {
-	text-align:center;
-}
 
 body {
 	font-family: 'VT323', monospace;
 	color:#c61b15;
 	font-size: 150%;
-}
-
-body {
-    background-color: black;
+	background-color: black;
 }
 
 .progress-bar {

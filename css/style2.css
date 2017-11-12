@@ -12,7 +12,8 @@ strong {
   color: #c61b15;
 }
 
-.navbar {
+.nav-link, .navbar-brand{
+  font-size: 150%;
   color: #c61b15;
 }
 
@@ -30,7 +31,11 @@ strong {
 .btn-primary:focus,
 .btn-primary:active:focus {
   background: #c61b15;
-  border-color: b#c61b15;
+  border-color: #c61b15;
+}
+
+.btn {
+  text-align: center
 }
 
 .card {
@@ -47,12 +52,15 @@ strong {
 }
 
 .description {
-  background-image: url(/st.png);
+  background-image: url(/st.jpg);
   background-repeat: repeat-x;
 }
 
 .jumbotron {
-  background-image: url(/st.png);
+  background: none;
+  background-image: url(/st.jpg);
   background-size: cover;
   color: #c61b15;
 }
+
+ 
